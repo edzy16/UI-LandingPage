@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.overlay-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: linear-gradient(
+    to left,
+    rgba(243, 231, 233, 1) 0%,
+    rgba(227, 238, 255, 1) 99.00000095367432%,
+    rgba(227, 238, 255, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  max-width: 150px;
+  color: rgba(93, 57, 250, 1);
+  font-size: 30px;
+  line-height: 74px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.phrase-container {
+  width: 37em;
+  padding-left: 2em;
+}
+.phrase1,
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: rgba(93, 57, 250, 1);
+  display: flex;
+  max-width: 249px;
+  height: 40px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-width: 0cap;
+}
+.image-container {
+  display: flex;
+  max-width: 750px;
+  max-height: fit-content;
+  padding: 4rem;
+}
+.circle1 {
+  border-radius: 50%;
+  background-color: rgb(204, 204, 234);
+  display: flex;
+  height: 550px;
+  width: 550px;
+}
+
+.circle2 {
+  border-radius: 50%;
+  background-color: rgb(200, 195, 223);
+  display: flex;
+  height: 520px;
+  width: 520px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+.i-container {
+  padding-left: 5rem;
+}
+.iphone1 {
+  position: absolute;
+  z-index: 1;
+  width: 13rem;
+  top: 5.2rem;
+  right: 18.9rem;
+}
+.iphone2 {
+  position: absolute;
+  top: 5.9rem;
+  right: 8.3rem;
+  z-index: 0;
+  width: 12.7rem;
+}
+
+.trust-rectangle {
+  display: flex;
+  max-width: 1341px;
+  height: 100px;
+  width: 1000px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.10000000149011612);
+  background-color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -3rem;
+  left: 8.5rem;
+}
+
+.trust-text {
+  width: 8rem;
+  position: absolute;
+  left: 3rem;
+  font-size: 1rem;
+}
+
+.trust-img {
+  padding-left: 10px;
+  width: 5rem;
+  height: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.text-center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(93, 57, 250, 1);
+}
+
+.android-wrapper,
+.iphone-wrapper,
+.contact-wrapper {
+  display: flex;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 0 0 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.android-app-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1692px;
+  height: 500px;
+  width: 85%;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to left,
+    rgba(243, 231, 233, 1) 0%,
+    rgba(227, 238, 255, 1) 99.00000095367432%
+  );
+}
+
+.android-left, .contact-con-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  height: 100%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.android-dialog,
+.iphone-dialog {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 1rem 0 0.5rem;
+  font-size: 9px;
+}
+
+.android-right {
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+}
+
+.circle3,
+.circle5 {
+  border-radius: 50%;
+  background-color: rgb(204, 204, 234);
+  display: flex;
+  height: 350px;
+  width: 350px;
+  z-index: 0;
+}
+
+.circle5 {
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+}
+
+.circle4,
+.circle6 {
+  border-radius: 50%;
+  background-color: rgb(200, 195, 223);
+  display: flex;
+  height: 320px;
+  width: 320px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+.iphone-app-container {
+  display: flex;
+  max-width: 1692px;
+  height: 500px;
+  width: 85%;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(243, 231, 233, 1) 0%,
+    rgba(227, 238, 255, 1) 72.4017322063446%
+  );
+}
+
+.platform-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 0 0 0;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 10rem;
+}
+
+.platform-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.plat-img1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 0 0 0;
+}
+
+.plat-img2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 0 0 0;
+}
+
+.plat-img3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 0 0 0;
+}
+
+.left-con,
+.right-con {
+  display: flex;
+  max-width: 50%;
+  height: 250px;
+  width: 450px;
+  border-radius: 66px;
+  background-color: rgba(113, 82, 251, 1);
+}
+
+.tech-con {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  position: relative;
+  top: 35rem;
+}
+
+.tech-con-left,
+.tech-con-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10rem;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1752px;
+  height: 500px;
+  width: 85%;
+  border-radius: 50px;
+  opacity: 0.1;
+  background-color: rgb(195, 158, 243);
+  position: relative;
+  top: 50rem;
+}
