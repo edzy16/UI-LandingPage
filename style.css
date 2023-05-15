@@ -369,9 +369,11 @@ h2 {
 .ad-container{
   background-color: blueviolet;
   height: 200px;
-  width: 1000px;
+  width: 1050px;
   position: relative;
-  top: 55rem;
+  top: 45rem;
   left: 8rem;
   border-radius: 50px;
+  display: flex;
+  flex-direction: row;
 }
